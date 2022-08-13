@@ -1,0 +1,472 @@
+/*......................................................................................*/
+/* BASIC-SETUP  #f79f08*/ 
+/*......................................................................................*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	background-color: #fff;
+	color: #000;
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 18px;
+	text-rendering: optimizeLegibility;
+}
+
+.btn, .btn2, .btn1:visited,
+.btn, .btn2, .btn1:link{
+	text-decoration: none;
+	color: #fff;
+	background-color: #000;
+	font-size: 15px;
+	padding: 8px 15px 8px 15px;
+	border-radius: 5px;
+	transition: color 0.2s;
+}
+
+
+
+
+.btn1:hover,
+.btn1:active{
+	color: #f79f08; 
+}
+.btn2:hover,
+.btn2:active{
+	color: #f79f08;
+}
+
+
+.btn2{
+	margin-left: 20px;
+}
+
+/*......................................................................................*/
+/* REUSEABLE COMPONENT  */
+/*......................................................................................*/
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+section{
+	padding: 40px, 0;
+	margin-top: 100px;
+}
+
+.long2{
+	width: 50%;
+	height: auto;
+}
+
+.long{
+	width: 20%;
+	height:auto;
+}
+
+.hero-text{
+	margin-top: 60px;
+
+}
+
+.hero-text p{
+	margin-bottom: 20px;
+}
+
+
+
+.box{
+	width: 40%;
+	height: auto;
+	margin-left: 20%;
+}
+
+
+.logo{
+	width: 10%;
+	height: auto;
+	float: left;
+	margin-top: 35px;
+}
+
+.main-nav{
+	list-style: none;
+	float: right;
+	margin-top: 30px;
+
+
+}
+
+.main-nav li{
+	display: inline;
+	margin-left: 2px;
+	margin-right: 30px;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav a{
+	text-decoration: none;
+	color: #000;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #f79f08;
+}
+
+.main-nav i{
+	margin-left: 20px;
+}
+
+.cart{
+	background-color: #f79f08;
+	border-radius: 10px;
+	padding:2px 5px 2px 5px;
+	
+}
+
+/*......................................................................................*/
+/* LUXURY CHAIR  */
+/*......................................................................................*/
+
+.chair{
+	font-size: 15px;
+	color: #fff;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	margin-left: 0%;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	position: relative;
+	margin-top: 15%;
+
+
+
+}
+
+.ch1{
+	width: 60%;
+	height: auto;
+	margin-left: 20%;
+	height: 100%;
+}
+.ch{
+	margin-top: -11%;
+	width: 20%;
+	position: absolute;
+}
+
+.chair h4{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.chair p{
+	text-align: center;
+}
+
+.box2{
+	width: 20%;
+	height: auto;
+}
+
+.box3{
+	margin-left: ;
+	background-color: #f79f08;
+	width: 33%;
+	height: 100%;
+	position: absolute;
+	margin: 0 0 0 70%;
+
+}
+
+/*......................................................................................*/
+/* TRUSTED BY  */
+/*......................................................................................*/
+
+.trusted{
+	text-align: center;
+	color: #1a1a1a;
+	font-weight: 300;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+
+}
+
+.brands{
+	margin-top: 10px;
+	background-color: #ccc;
+	width: 85%;
+	margin-left: 5%;
+	padding-top: 2%;
+	border-radius: 5px;
+
+}
+
+.brands img{
+	width: 50%;
+	filter: grayscale(100%);
+
+}
+
+/*......................................................................................*/
+/* MINIMALIST INTERIOR  */
+/*......................................................................................*/
+
+.interior{
+	position: relative;
+	padding: 0;
+}
+.text{
+	margin-top: 2px;
+	background-color: #fac66b;
+	width: 90%;
+	padding-left: 22%;
+	padding-top: 1%;
+	padding-bottom: 1.5%;
+	border-radius: 10px;
+	font-size: 15px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+
+.text p{
+	margin-bottom: 2%;
+}
+
+.text a{
+	margin-left: 70%;
+}
+.text h4{
+	margin-bottom: 1%;
+}
+
+.interior img{
+	position: absolute;
+	width: 15%;
+	border-radius: 10%;
+	border: 2px  #fac66b solid;
+	margin-top: -1%;
+	margin-left: 0%;
+}
+
+/*......................................................................................*/
+/* LIGHTNING  */
+/*......................................................................................*/
+
+.light{
+	position: relative;
+	padding: 0;
+}
+.text2{
+	margin-top: 20px;
+	background-color: #fac66b;
+	width: 50%;
+	padding-left:5%;
+	padding-right: 10%;
+	margin-left: 30%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	border-radius: 10px;
+	font-size: 15px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+
+.text2 p{
+	margin-bottom: 5%;
+}
+.text2 h4{
+	margin-bottom: 1%;
+}
+
+.light img{
+	position: absolute;
+	width: 15%;
+	border-radius: 10%;
+	border: 2px  #fac66b solid;
+	margin-top: -18%;
+	margin-left: 60%;
+}
+
+/*......................................................................................*/
+/* OUR COMPANY  */
+/*......................................................................................*/
+
+.company h4{
+	text-align: center;
+}
+
+.company p{
+	font-size: 15px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+
+.our-company{
+	margin-top: 5%;
+	width: 80%;
+	margin-left: 20%;
+
+}
+.our-company img{
+	width: 15%;
+	border-radius: 5%;
+}
+
+.client{
+	margin-left: 10%;
+	margin-top: -10%;
+}
+
+/*......................................................................................*/
+/* ABOUT US  */
+/*......................................................................................*/
+
+.top{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.top h4{
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+
+.bg{
+	background-color: #f4f4f4;
+	width: 80%;
+	margin-left: 10%;
+	padding: 20px 30px 5px 30px;
+	border-radius: 10px;
+}
+
+
+cite img{
+	width: 45px;
+	height: 45px;
+	border-radius: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.down a{
+	text-decoration: none;
+}
+
+.arrow{
+	color:#f79f08;
+}
+
+/*......................................................................................*/
+/* FOOTER  */
+/*......................................................................................*/
+
+footer{
+	margin-top: 100px;
+	padding-top: 30px;
+	position: relative;
+	background-color: #000;
+	position: relative;
+	color: #fff;
+
+}
+
+.bx2{
+	margin-top: 20px;
+}
+.bx2 img{
+	width: 20%;
+	filter: grayscale(100%);
+}
+
+.bx2 a{
+	color: white;
+	text-decoration: none;
+}
+
+.bx2 p:link,
+.bx2 p:visited{
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.bx2 p:hover,
+.bx2 p:active{
+	color: #f79f08;
+}
+
+.bx{
+	margin-top: 70px;
+
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 8px;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	position: absolute;
+	z-index: 1;
+}
+
+.bx a:link,
+.bx a:visited{
+	text-decoration: none;
+	color: #000;
+	background-color:#f79f08;
+	padding: 2px 30px;
+	border-radius: 5px;
+	transition: color 0.2s, background-color 0.2s;
+}
+
+.bx a:hover,
+.bx a:active{
+	color: #f79f08;
+	background-color: #000;
+}
+
+
+.social-links{
+	list-style: none;	
+}
+
+.social-links li{
+	display: inline-block;
+	margin-left: 5px;	
+}
+
+.social-links li a{
+	color: #f79f08;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+	transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+	color: #3b5998;
+}
+.ion-social-twitter:hover{
+	color: #00aced;
+}
+.ion-social-googleplus:hover{
+	color: #d54b39;
+}
+.ion-social-instagram:hover{
+	color: #517fa4;
+}
